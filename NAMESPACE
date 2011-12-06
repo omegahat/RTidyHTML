@@ -1,0 +1,3 @@
+useDynLib(RTidyHTML)
+
+export(tidyHTML)

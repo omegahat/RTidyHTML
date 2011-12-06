@@ -1,0 +1,10 @@
+Package: RTidyHTML
+Version: 0.2-1
+Title: Tidy HTML documents
+Description: This is an interface to the tidy library
+  for cleaning up HTML documents into well-formed XHTML documents.
+Author: Duncan Temple Lang
+Maintainer: Duncan Temple Lang <duncan@r-project.org>
+License: BSD
+Note: This package contains a copy of libtidy. The source
+  is available from http://tidy.sourceforge.net/

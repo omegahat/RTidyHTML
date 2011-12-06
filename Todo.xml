@@ -1,0 +1,9 @@
+<topics>
+<topic>
+
+<item status="done">
+Use R's memory management as our own allocator.
+</item>
+
+</topic>
+</topics>

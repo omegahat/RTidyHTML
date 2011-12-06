@@ -1,0 +1,8 @@
+ 0.2-1
+   
+    *   Added configure.win to build libtidy on Windows.
+
+ 0.2-0
+
+    * Use our own allocator which uses R's memory management to ensure that no 
+      memory is lost regardless of how we return.

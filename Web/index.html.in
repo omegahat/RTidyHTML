@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<link rel="stylesheet" href="../OmegaTech.css">
+<title>@PKG_NAME@</title>
+</head>
+
+<body>
+<h1>@PKG_NAME@</h1>
+<p align=right><a href="@TAR_FILE@">@TAR_FILE@</a> (@DATE@)</p>
+
+<p>
+This package interfaces to the libtidy library for
+"correcting" HTML documents that are not well-formed.
+This library corrects common errors in HTML documents
+and
+<ul>
+  <li> adds closing nodes, e.g. &lt;/li&gt;
+  <li> encloses attributes in quotes
+  <li> and generally puts nodes in the right part of the tree
+</ul>
+
+This makes better HTML documents, but it also improves the processing
+of these documents with tools such as htmlParse() (in the XML package)
+and XPath queries.
+
+</p>
+
+<p>
+At present the package provides a single
+function - tidyHTML() - that accepts either
+the name of an HTML file or the contents of an
+HTML document. It returns the corrected
+document and can also return a description of
+the problems it contained.
+</p>
+
+
+<hr>
+<address><a href="http://www.stat.ucdavis.edu/~duncan">Duncan Temple Lang</a>
+<a href=mailto:duncan@wald.ucdavis.edu>&lt;duncan@wald.ucdavis.edu&gt;</a></address>
+<!-- hhmts start -->
+Last modified: Tue Oct 13 16:32:57 PDT 2009
+<!-- hhmts end -->
+</body> </html>

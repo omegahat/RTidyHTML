@@ -1,0 +1,6 @@
+#TIDY_DIR=$(HOME)/Projects/tidy
+
+PKG_CPPFLAGS=-Ilibtidy/include
+PKG_LIBS=libtidy/libtidy.a
+
+
