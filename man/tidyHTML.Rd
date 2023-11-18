@@ -16,7 +16,8 @@ This uses libtidy from \url{http://tidy.sourceforge.net}
 }
 \usage{
 tidyHTML(doc, asXHTML = FALSE, 
-         asText = inherits(doc, "AsIs") || (!file.exists(doc) && length(grep("\\\\<", doc))),
+         asText = inherits(doc, "AsIs") ||
+                    (!file.exists(doc) && length(grep("\\\\<", doc))),
          size = nchar(doc)*1.2, withErrors = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
